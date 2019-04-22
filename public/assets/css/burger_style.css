@@ -17,4 +17,14 @@ li {
   .form-group {
     margin-bottom: 5px;
   }
+
+  #main {
+
+    display: flex;
+  }
   
+  #main div {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+  }
